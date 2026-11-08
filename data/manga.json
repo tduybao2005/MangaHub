@@ -1,0 +1,1092 @@
+{
+  "series": [
+    {
+      "id": "pepper-carrot",
+      "title": "Pepper&Carrot",
+      "author": "David Revoy",
+      "year": "2014",
+      "language": "Tiếng Việt",
+      "license": "CC BY 4.0",
+      "source": "https://www.peppercarrot.com",
+      "description": "Cô phù thủy nhỏ Pepper cùng chú mèo Carrot luyện phép thuật và gặp đủ chuyện dở khóc dở cười trong thế giới Hereva.",
+      "cover": "https://www.peppercarrot.com/0_sources/ep01_Potion-of-Flight/low-res/vi_Pepper-and-Carrot_by-David-Revoy_E01.jpg",
+      "chapters": [
+        {
+          "id": "pepper-carrot-1",
+          "number": 1,
+          "title": "Potion of Flight",
+          "pages": [
+            {
+              "url": "https://www.peppercarrot.com/0_sources/ep01_Potion-of-Flight/low-res/vi_Pepper-and-Carrot_by-David-Revoy_E01P01.jpg",
+              "width": 1200,
+              "height": 1660
+            },
+            {
+              "url": "https://www.peppercarrot.com/0_sources/ep01_Potion-of-Flight/low-res/vi_Pepper-and-Carrot_by-David-Revoy_E01P02.jpg",
+              "width": 1200,
+              "height": 1660
+            },
+            {
+              "url": "https://www.peppercarrot.com/0_sources/ep01_Potion-of-Flight/low-res/vi_Pepper-and-Carrot_by-David-Revoy_E01P03.jpg",
+              "width": 1200,
+              "height": 1660
+            }
+          ]
+        },
+        {
+          "id": "pepper-carrot-2",
+          "number": 2,
+          "title": "Rainbow potions",
+          "pages": [
+            {
+              "url": "https://www.peppercarrot.com/0_sources/ep02_Rainbow-potions/low-res/vi_Pepper-and-Carrot_by-David-Revoy_E02P01.jpg",
+              "width": 1200,
+              "height": 1660
+            },
+            {
+              "url": "https://www.peppercarrot.com/0_sources/ep02_Rainbow-potions/low-res/vi_Pepper-and-Carrot_by-David-Revoy_E02P02.jpg",
+              "width": 1200,
+              "height": 1660
+            },
+            {
+              "url": "https://www.peppercarrot.com/0_sources/ep02_Rainbow-potions/low-res/vi_Pepper-and-Carrot_by-David-Revoy_E02P03.jpg",
+              "width": 1200,
+              "height": 1660
+            },
+            {
+              "url": "https://www.peppercarrot.com/0_sources/ep02_Rainbow-potions/low-res/vi_Pepper-and-Carrot_by-David-Revoy_E02P04.jpg",
+              "width": 1200,
+              "height": 1660
+            },
+            {
+              "url": "https://www.peppercarrot.com/0_sources/ep02_Rainbow-potions/low-res/vi_Pepper-and-Carrot_by-David-Revoy_E02P05.jpg",
+              "width": 1200,
+              "height": 1660
+            }
+          ]
+        },
+        {
+          "id": "pepper-carrot-3",
+          "number": 3,
+          "title": "The secret ingredients",
+          "pages": [
+            {
+              "url": "https://www.peppercarrot.com/0_sources/ep03_The-secret-ingredients/low-res/vi_Pepper-and-Carrot_by-David-Revoy_E03P01.jpg",
+              "width": 1200,
+              "height": 1660
+            },
+            {
+              "url": "https://www.peppercarrot.com/0_sources/ep03_The-secret-ingredients/low-res/vi_Pepper-and-Carrot_by-David-Revoy_E03P02.jpg",
+              "width": 1200,
+              "height": 1660
+            },
+            {
+              "url": "https://www.peppercarrot.com/0_sources/ep03_The-secret-ingredients/low-res/vi_Pepper-and-Carrot_by-David-Revoy_E03P03.jpg",
+              "width": 1200,
+              "height": 1660
+            },
+            {
+              "url": "https://www.peppercarrot.com/0_sources/ep03_The-secret-ingredients/low-res/vi_Pepper-and-Carrot_by-David-Revoy_E03P04.jpg",
+              "width": 1200,
+              "height": 1660
+            },
+            {
+              "url": "https://www.peppercarrot.com/0_sources/ep03_The-secret-ingredients/low-res/vi_Pepper-and-Carrot_by-David-Revoy_E03P05.jpg",
+              "width": 1200,
+              "height": 1660
+            },
+            {
+              "url": "https://www.peppercarrot.com/0_sources/ep03_The-secret-ingredients/low-res/vi_Pepper-and-Carrot_by-David-Revoy_E03P06.jpg",
+              "width": 1200,
+              "height": 1660
+            },
+            {
+              "url": "https://www.peppercarrot.com/0_sources/ep03_The-secret-ingredients/low-res/vi_Pepper-and-Carrot_by-David-Revoy_E03P07.jpg",
+              "width": 1200,
+              "height": 1660
+            }
+          ]
+        },
+        {
+          "id": "pepper-carrot-4",
+          "number": 4,
+          "title": "Stroke of genius",
+          "pages": [
+            {
+              "url": "https://www.peppercarrot.com/0_sources/ep04_Stroke-of-genius/low-res/vi_Pepper-and-Carrot_by-David-Revoy_E04P01.jpg",
+              "width": 1200,
+              "height": 1660
+            },
+            {
+              "url": "https://www.peppercarrot.com/0_sources/ep04_Stroke-of-genius/low-res/vi_Pepper-and-Carrot_by-David-Revoy_E04P02.jpg",
+              "width": 1200,
+              "height": 1660
+            },
+            {
+              "url": "https://www.peppercarrot.com/0_sources/ep04_Stroke-of-genius/low-res/vi_Pepper-and-Carrot_by-David-Revoy_E04P03.jpg",
+              "width": 1200,
+              "height": 1660
+            },
+            {
+              "url": "https://www.peppercarrot.com/0_sources/ep04_Stroke-of-genius/low-res/vi_Pepper-and-Carrot_by-David-Revoy_E04P04.jpg",
+              "width": 1200,
+              "height": 280
+            },
+            {
+              "url": "https://www.peppercarrot.com/0_sources/ep04_Stroke-of-genius/low-res/vi_Pepper-and-Carrot_by-David-Revoy_E04P05.gif",
+              "width": 910,
+              "height": 512
+            },
+            {
+              "url": "https://www.peppercarrot.com/0_sources/ep04_Stroke-of-genius/low-res/vi_Pepper-and-Carrot_by-David-Revoy_E04P06.jpg",
+              "width": 1200,
+              "height": 726
+            },
+            {
+              "url": "https://www.peppercarrot.com/0_sources/ep04_Stroke-of-genius/low-res/vi_Pepper-and-Carrot_by-David-Revoy_E04P07.jpg",
+              "width": 1200,
+              "height": 1660
+            }
+          ]
+        },
+        {
+          "id": "pepper-carrot-5",
+          "number": 5,
+          "title": "Special holiday episode",
+          "pages": [
+            {
+              "url": "https://www.peppercarrot.com/0_sources/ep05_Special-holiday-episode/low-res/vi_Pepper-and-Carrot_by-David-Revoy_E05P01.jpg",
+              "width": 1200,
+              "height": 1660
+            },
+            {
+              "url": "https://www.peppercarrot.com/0_sources/ep05_Special-holiday-episode/low-res/vi_Pepper-and-Carrot_by-David-Revoy_E05P02.jpg",
+              "width": 1200,
+              "height": 1660
+            },
+            {
+              "url": "https://www.peppercarrot.com/0_sources/ep05_Special-holiday-episode/low-res/vi_Pepper-and-Carrot_by-David-Revoy_E05P03.jpg",
+              "width": 1200,
+              "height": 1660
+            },
+            {
+              "url": "https://www.peppercarrot.com/0_sources/ep05_Special-holiday-episode/low-res/vi_Pepper-and-Carrot_by-David-Revoy_E05P04.jpg",
+              "width": 1200,
+              "height": 1660
+            }
+          ]
+        },
+        {
+          "id": "pepper-carrot-6",
+          "number": 6,
+          "title": "The Potion Contest",
+          "pages": [
+            {
+              "url": "https://www.peppercarrot.com/0_sources/ep06_The-Potion-Contest/low-res/vi_Pepper-and-Carrot_by-David-Revoy_E06P01.jpg",
+              "width": 1200,
+              "height": 1660
+            },
+            {
+              "url": "https://www.peppercarrot.com/0_sources/ep06_The-Potion-Contest/low-res/vi_Pepper-and-Carrot_by-David-Revoy_E06P02.jpg",
+              "width": 1200,
+              "height": 1660
+            },
+            {
+              "url": "https://www.peppercarrot.com/0_sources/ep06_The-Potion-Contest/low-res/vi_Pepper-and-Carrot_by-David-Revoy_E06P03.jpg",
+              "width": 1200,
+              "height": 1660
+            },
+            {
+              "url": "https://www.peppercarrot.com/0_sources/ep06_The-Potion-Contest/low-res/vi_Pepper-and-Carrot_by-David-Revoy_E06P04.jpg",
+              "width": 1200,
+              "height": 1660
+            },
+            {
+              "url": "https://www.peppercarrot.com/0_sources/ep06_The-Potion-Contest/low-res/vi_Pepper-and-Carrot_by-David-Revoy_E06P05.jpg",
+              "width": 1200,
+              "height": 1660
+            },
+            {
+              "url": "https://www.peppercarrot.com/0_sources/ep06_The-Potion-Contest/low-res/vi_Pepper-and-Carrot_by-David-Revoy_E06P06.jpg",
+              "width": 1200,
+              "height": 1660
+            },
+            {
+              "url": "https://www.peppercarrot.com/0_sources/ep06_The-Potion-Contest/low-res/vi_Pepper-and-Carrot_by-David-Revoy_E06P07.jpg",
+              "width": 1200,
+              "height": 1660
+            },
+            {
+              "url": "https://www.peppercarrot.com/0_sources/ep06_The-Potion-Contest/low-res/vi_Pepper-and-Carrot_by-David-Revoy_E06P08.jpg",
+              "width": 1200,
+              "height": 1660
+            },
+            {
+              "url": "https://www.peppercarrot.com/0_sources/ep06_The-Potion-Contest/low-res/vi_Pepper-and-Carrot_by-David-Revoy_E06P09.jpg",
+              "width": 1200,
+              "height": 1660
+            }
+          ]
+        },
+        {
+          "id": "pepper-carrot-7",
+          "number": 7,
+          "title": "The Wish",
+          "pages": [
+            {
+              "url": "https://www.peppercarrot.com/0_sources/ep07_The-Wish/low-res/vi_Pepper-and-Carrot_by-David-Revoy_E07P01.jpg",
+              "width": 1200,
+              "height": 1660
+            },
+            {
+              "url": "https://www.peppercarrot.com/0_sources/ep07_The-Wish/low-res/vi_Pepper-and-Carrot_by-David-Revoy_E07P02.jpg",
+              "width": 1200,
+              "height": 1660
+            },
+            {
+              "url": "https://www.peppercarrot.com/0_sources/ep07_The-Wish/low-res/vi_Pepper-and-Carrot_by-David-Revoy_E07P03.jpg",
+              "width": 1200,
+              "height": 1660
+            },
+            {
+              "url": "https://www.peppercarrot.com/0_sources/ep07_The-Wish/low-res/vi_Pepper-and-Carrot_by-David-Revoy_E07P04.jpg",
+              "width": 1200,
+              "height": 1660
+            },
+            {
+              "url": "https://www.peppercarrot.com/0_sources/ep07_The-Wish/low-res/vi_Pepper-and-Carrot_by-David-Revoy_E07P05.jpg",
+              "width": 1200,
+              "height": 1660
+            }
+          ]
+        },
+        {
+          "id": "pepper-carrot-8",
+          "number": 8,
+          "title": "Pepper s Birthday Party",
+          "pages": [
+            {
+              "url": "https://www.peppercarrot.com/0_sources/ep08_Pepper-s-Birthday-Party/low-res/vi_Pepper-and-Carrot_by-David-Revoy_E08P01.jpg",
+              "width": 1200,
+              "height": 1660
+            },
+            {
+              "url": "https://www.peppercarrot.com/0_sources/ep08_Pepper-s-Birthday-Party/low-res/vi_Pepper-and-Carrot_by-David-Revoy_E08P02.jpg",
+              "width": 1200,
+              "height": 1660
+            },
+            {
+              "url": "https://www.peppercarrot.com/0_sources/ep08_Pepper-s-Birthday-Party/low-res/vi_Pepper-and-Carrot_by-David-Revoy_E08P03.jpg",
+              "width": 1200,
+              "height": 1660
+            },
+            {
+              "url": "https://www.peppercarrot.com/0_sources/ep08_Pepper-s-Birthday-Party/low-res/vi_Pepper-and-Carrot_by-David-Revoy_E08P04.jpg",
+              "width": 1200,
+              "height": 1660
+            },
+            {
+              "url": "https://www.peppercarrot.com/0_sources/ep08_Pepper-s-Birthday-Party/low-res/vi_Pepper-and-Carrot_by-David-Revoy_E08P05.jpg",
+              "width": 1200,
+              "height": 1660
+            },
+            {
+              "url": "https://www.peppercarrot.com/0_sources/ep08_Pepper-s-Birthday-Party/low-res/vi_Pepper-and-Carrot_by-David-Revoy_E08P06.jpg",
+              "width": 1200,
+              "height": 1660
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "little-nemo",
+      "title": "Little Nemo in Slumberland",
+      "author": "Winsor McCay",
+      "year": "1905",
+      "language": "Tiếng Anh",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/Category:Little_Nemo_in_Slumberland",
+      "description": "Mỗi đêm cậu bé Nemo lại mơ thấy mình phiêu lưu tới xứ sở Slumberland đầy màu sắc, và luôn tỉnh dậy đúng lúc gay cấn nhất.",
+      "cover": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/little-nemo/cover.jpg",
+      "chapters": [
+        {
+          "id": "little-nemo-1",
+          "number": 1,
+          "title": "Ngày 15/10/1905",
+          "pages": [
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/little-nemo/1-1.jpg",
+              "width": 960,
+              "height": 1311
+            }
+          ]
+        },
+        {
+          "id": "little-nemo-2",
+          "number": 2,
+          "title": "Ngày 22/10/1905",
+          "pages": [
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/little-nemo/2-1.jpg",
+              "width": 960,
+              "height": 1311
+            }
+          ]
+        },
+        {
+          "id": "little-nemo-3",
+          "number": 3,
+          "title": "Ngày 29/10/1905",
+          "pages": [
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/little-nemo/3-1.jpg",
+              "width": 960,
+              "height": 1311
+            }
+          ]
+        },
+        {
+          "id": "little-nemo-4",
+          "number": 4,
+          "title": "Ngày 05/11/1905",
+          "pages": [
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/little-nemo/4-1.jpg",
+              "width": 960,
+              "height": 1313
+            }
+          ]
+        },
+        {
+          "id": "little-nemo-5",
+          "number": 5,
+          "title": "Ngày 12/11/1905",
+          "pages": [
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/little-nemo/5-1.jpg",
+              "width": 960,
+              "height": 1313
+            }
+          ]
+        },
+        {
+          "id": "little-nemo-6",
+          "number": 6,
+          "title": "Ngày 19/11/1905",
+          "pages": [
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/little-nemo/6-1.jpg",
+              "width": 960,
+              "height": 1326
+            }
+          ]
+        },
+        {
+          "id": "little-nemo-7",
+          "number": 7,
+          "title": "Ngày 26/11/1905",
+          "pages": [
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/little-nemo/7-1.jpg",
+              "width": 960,
+              "height": 1314
+            }
+          ]
+        },
+        {
+          "id": "little-nemo-8",
+          "number": 8,
+          "title": "Ngày 10/12/1905",
+          "pages": [
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/little-nemo/8-1.jpg",
+              "width": 960,
+              "height": 1321
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "krazy-kat",
+      "title": "Krazy Kat",
+      "author": "George Herriman",
+      "year": "1916",
+      "language": "Tiếng Anh",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/Category:Krazy_Kat_comics",
+      "description": "Chú mèo ngây thơ Krazy, chú chuột Ignatz chuyên ném gạch và viên cảnh sát chó Offissa Pupp trong vùng sa mạc Coconino.",
+      "cover": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/krazy-kat/cover.jpg",
+      "chapters": [
+        {
+          "id": "krazy-kat-1",
+          "number": 1,
+          "title": "Ngày 30/04/1916",
+          "pages": [
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/krazy-kat/1-1.jpg",
+              "width": 960,
+              "height": 1125
+            }
+          ]
+        },
+        {
+          "id": "krazy-kat-2",
+          "number": 2,
+          "title": "Ngày 14/05/1916",
+          "pages": [
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/krazy-kat/2-1.jpg",
+              "width": 960,
+              "height": 1117
+            }
+          ]
+        },
+        {
+          "id": "krazy-kat-3",
+          "number": 3,
+          "title": "Ngày 28/05/1916",
+          "pages": [
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/krazy-kat/3-1.jpg",
+              "width": 960,
+              "height": 1119
+            }
+          ]
+        },
+        {
+          "id": "krazy-kat-4",
+          "number": 4,
+          "title": "Ngày 11/06/1916",
+          "pages": [
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/krazy-kat/4-1.jpg",
+              "width": 960,
+              "height": 1113
+            }
+          ]
+        },
+        {
+          "id": "krazy-kat-5",
+          "number": 5,
+          "title": "Ngày 09/07/1916",
+          "pages": [
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/krazy-kat/5-1.jpg",
+              "width": 960,
+              "height": 1122
+            }
+          ]
+        },
+        {
+          "id": "krazy-kat-6",
+          "number": 6,
+          "title": "Ngày 22/07/1916",
+          "pages": [
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/krazy-kat/6-1.jpg",
+              "width": 960,
+              "height": 1126
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "little-sammy-sneeze",
+      "title": "Little Sammy Sneeze",
+      "author": "Winsor McCay",
+      "year": "1904",
+      "language": "Tiếng Anh",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/Category:Little_Sammy_Sneeze",
+      "description": "Cậu bé Sammy có một tài lẻ tai hại: hắt xì mạnh tới mức thổi bay mọi thứ xung quanh, đúng vào lúc không nên nhất.",
+      "cover": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/little-sammy-sneeze/cover.jpg",
+      "chapters": [
+        {
+          "id": "little-sammy-sneeze-1",
+          "number": 1,
+          "title": "Ngày 11/09/1904",
+          "pages": [
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/little-sammy-sneeze/1-1.jpg",
+              "width": 960,
+              "height": 617
+            }
+          ]
+        },
+        {
+          "id": "little-sammy-sneeze-2",
+          "number": 2,
+          "title": "Ngày 18/09/1904",
+          "pages": [
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/little-sammy-sneeze/2-1.jpg",
+              "width": 600,
+              "height": 409
+            }
+          ]
+        },
+        {
+          "id": "little-sammy-sneeze-3",
+          "number": 3,
+          "title": "Ngày 04/11/1904",
+          "pages": [
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/little-sammy-sneeze/3-1.jpg",
+              "width": 960,
+              "height": 659
+            }
+          ]
+        },
+        {
+          "id": "little-sammy-sneeze-4",
+          "number": 4,
+          "title": "Ngày 13/11/1904",
+          "pages": [
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/little-sammy-sneeze/4-1.jpg",
+              "width": 600,
+              "height": 409
+            }
+          ]
+        },
+        {
+          "id": "little-sammy-sneeze-5",
+          "number": 5,
+          "title": "Ngày 20/11/1904",
+          "pages": [
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/little-sammy-sneeze/5-1.jpg",
+              "width": 960,
+              "height": 679
+            }
+          ]
+        },
+        {
+          "id": "little-sammy-sneeze-6",
+          "number": 6,
+          "title": "Ngày 18/12/1904",
+          "pages": [
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/little-sammy-sneeze/6-1.jpg",
+              "width": 960,
+              "height": 706
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "buster-brown",
+      "title": "Buster Brown",
+      "author": "Richard F. Outcault",
+      "year": "1902",
+      "language": "Tiếng Pháp",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/Category:Buster_Brown",
+      "description": "Cậu bé nhà giàu Buster Brown cùng chú chó Tige bày đủ trò nghịch ngợm, cuối mỗi tập lại tự rút ra một \"bài học\".",
+      "cover": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/buster-brown/cover.jpg",
+      "chapters": [
+        {
+          "id": "buster-brown-1",
+          "number": 1,
+          "title": "Une riposte de Buster Brown",
+          "pages": [
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/buster-brown/1-1.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/buster-brown/1-2.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          ]
+        },
+        {
+          "id": "buster-brown-2",
+          "number": 2,
+          "title": "Buster Brown s'occupe de bébé",
+          "pages": [
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/buster-brown/2-1.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/buster-brown/2-2.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          ]
+        },
+        {
+          "id": "buster-brown-3",
+          "number": 3,
+          "title": "Un tour de Buster qui finit mal",
+          "pages": [
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/buster-brown/3-1.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/buster-brown/3-2.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          ]
+        },
+        {
+          "id": "buster-brown-4",
+          "number": 4,
+          "title": "Buster Brown éteint la lampe de M. Collins",
+          "pages": [
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/buster-brown/4-1.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/buster-brown/4-2.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          ]
+        },
+        {
+          "id": "buster-brown-5",
+          "number": 5,
+          "title": "Buster et son professeur de piano",
+          "pages": [
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/buster-brown/5-1.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/buster-brown/5-2.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "struwwelpeter",
+      "title": "Der Struwwelpeter",
+      "author": "Heinrich Hoffmann",
+      "year": "1845",
+      "language": "Tiếng Đức",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/Category:Lustige_Geschichten_und_drollige_Bilder_für_Kinder_von_3_bis_6_Jahren",
+      "description": "Tập truyện tranh thơ nổi tiếng nước Đức (bản in đầu tiên năm 1845) kể về những đứa trẻ hư và hậu quả \"nhớ đời\" của chúng.",
+      "cover": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/struwwelpeter/cover.jpg",
+      "chapters": [
+        {
+          "id": "struwwelpeter-1",
+          "number": 1,
+          "title": "Lời mở đầu",
+          "pages": [
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/struwwelpeter/1-1.jpg",
+              "width": 960,
+              "height": 1194
+            },
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/struwwelpeter/1-2.jpg",
+              "width": 960,
+              "height": 1170
+            }
+          ]
+        },
+        {
+          "id": "struwwelpeter-2",
+          "number": 2,
+          "title": "Die Geschichte vom bösen Friederich",
+          "pages": [
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/struwwelpeter/2-1.jpg",
+              "width": 960,
+              "height": 1170
+            },
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/struwwelpeter/2-2.jpg",
+              "width": 960,
+              "height": 1170
+            },
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/struwwelpeter/2-3.jpg",
+              "width": 960,
+              "height": 1170
+            }
+          ]
+        },
+        {
+          "id": "struwwelpeter-3",
+          "number": 3,
+          "title": "Die Geschichte von den schwarzen Buben",
+          "pages": [
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/struwwelpeter/3-1.jpg",
+              "width": 960,
+              "height": 1170
+            },
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/struwwelpeter/3-2.jpg",
+              "width": 960,
+              "height": 1170
+            },
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/struwwelpeter/3-3.jpg",
+              "width": 960,
+              "height": 1170
+            },
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/struwwelpeter/3-4.jpg",
+              "width": 960,
+              "height": 788
+            }
+          ]
+        },
+        {
+          "id": "struwwelpeter-4",
+          "number": 4,
+          "title": "Die Geschichte von dem wilden Jäger",
+          "pages": [
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/struwwelpeter/4-1.jpg",
+              "width": 960,
+              "height": 1170
+            },
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/struwwelpeter/4-2.jpg",
+              "width": 960,
+              "height": 1170
+            },
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/struwwelpeter/4-3.jpg",
+              "width": 960,
+              "height": 1170
+            }
+          ]
+        },
+        {
+          "id": "struwwelpeter-5",
+          "number": 5,
+          "title": "Die Geschichte vom Suppen-Kaspar",
+          "pages": [
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/struwwelpeter/5-1.jpg",
+              "width": 960,
+              "height": 1170
+            }
+          ]
+        },
+        {
+          "id": "struwwelpeter-6",
+          "number": 6,
+          "title": "Die Geschichte vom Daumen-Lutscher",
+          "pages": [
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/struwwelpeter/6-1.jpg",
+              "width": 960,
+              "height": 1170
+            },
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/struwwelpeter/6-2.jpg",
+              "width": 960,
+              "height": 1170
+            }
+          ]
+        },
+        {
+          "id": "struwwelpeter-7",
+          "number": 7,
+          "title": "Der Struwwelpeter",
+          "pages": [
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/struwwelpeter/7-1.jpg",
+              "width": 960,
+              "height": 1170
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "becassine",
+      "title": "Bécassine",
+      "author": "Caumery & J.-P. Pinchon",
+      "year": "1916",
+      "language": "Tiếng Pháp",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/Category:Albums_de_Bécassine",
+      "description": "Cô hầu gái người Bretagne tốt bụng nhưng hậu đậu Bécassine trải qua những năm tháng Thế chiến thứ nhất theo cách rất riêng.",
+      "cover": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/becassine/cover.jpg",
+      "chapters": [
+        {
+          "id": "becassine-1",
+          "number": 1,
+          "title": "Bécassine pendant la guerre",
+          "pages": [
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/becassine/1-1.jpg",
+              "width": 960,
+              "height": 1343
+            },
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/becassine/1-2.jpg",
+              "width": 960,
+              "height": 1324
+            },
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/becassine/1-3.jpg",
+              "width": 960,
+              "height": 1339
+            },
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/becassine/1-4.jpg",
+              "width": 960,
+              "height": 1324
+            },
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/becassine/1-5.jpg",
+              "width": 960,
+              "height": 1339
+            },
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/becassine/1-6.jpg",
+              "width": 960,
+              "height": 1324
+            }
+          ]
+        },
+        {
+          "id": "becassine-2",
+          "number": 2,
+          "title": "Bécassine chez les Alliés",
+          "pages": [
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/becassine/2-1.jpg",
+              "width": 960,
+              "height": 1305
+            },
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/becassine/2-2.jpg",
+              "width": 960,
+              "height": 1328
+            },
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/becassine/2-3.jpg",
+              "width": 960,
+              "height": 1336
+            },
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/becassine/2-4.jpg",
+              "width": 960,
+              "height": 1313
+            },
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/becassine/2-5.jpg",
+              "width": 960,
+              "height": 1336
+            },
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/becassine/2-6.jpg",
+              "width": 960,
+              "height": 1313
+            }
+          ]
+        },
+        {
+          "id": "becassine-3",
+          "number": 3,
+          "title": "Bécassine mobilisée",
+          "pages": [
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/becassine/3-1.jpg",
+              "width": 960,
+              "height": 1371
+            },
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/becassine/3-2.jpg",
+              "width": 960,
+              "height": 1370
+            },
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/becassine/3-3.jpg",
+              "width": 960,
+              "height": 1360
+            },
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/becassine/3-4.jpg",
+              "width": 960,
+              "height": 1370
+            },
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/becassine/3-5.jpg",
+              "width": 960,
+              "height": 1360
+            },
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/becassine/3-6.jpg",
+              "width": 960,
+              "height": 1370
+            }
+          ]
+        },
+        {
+          "id": "becassine-4",
+          "number": 4,
+          "title": "Bécassine chez les Turcs",
+          "pages": [
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/becassine/4-1.jpg",
+              "width": 960,
+              "height": 1229
+            },
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/becassine/4-2.jpg",
+              "width": 960,
+              "height": 1280
+            },
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/becassine/4-3.jpg",
+              "width": 960,
+              "height": 1278
+            },
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/becassine/4-4.jpg",
+              "width": 960,
+              "height": 1280
+            },
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/becassine/4-5.jpg",
+              "width": 960,
+              "height": 1278
+            },
+            {
+              "url": "https://raw.githubusercontent.com/tduybao2005/MangaHub/main/data/images/becassine/4-6.jpg",
+              "width": 960,
+              "height": 1280
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "xkcd",
+      "title": "xkcd",
+      "author": "Randall Munroe",
+      "year": "2005",
+      "language": "Tiếng Anh",
+      "license": "CC BY-NC 2.5",
+      "source": "https://xkcd.com",
+      "description": "Truyện tranh người que về lập trình, toán học, khoa học và cuộc sống, rất nổi tiếng trong giới IT.",
+      "cover": "https://imgs.xkcd.com/comics/exploits_of_a_mom.png",
+      "chapters": [
+        {
+          "id": "xkcd-1",
+          "number": 1,
+          "title": "#149: Sandwich",
+          "pages": [
+            {
+              "url": "https://imgs.xkcd.com/comics/sandwich.png",
+              "width": 360,
+              "height": 299
+            }
+          ]
+        },
+        {
+          "id": "xkcd-2",
+          "number": 2,
+          "title": "#303: Compiling",
+          "pages": [
+            {
+              "url": "https://imgs.xkcd.com/comics/compiling.png",
+              "width": 413,
+              "height": 360
+            }
+          ]
+        },
+        {
+          "id": "xkcd-3",
+          "number": 3,
+          "title": "#327: Exploits of a Mom",
+          "pages": [
+            {
+              "url": "https://imgs.xkcd.com/comics/exploits_of_a_mom.png",
+              "width": 666,
+              "height": 205
+            }
+          ]
+        },
+        {
+          "id": "xkcd-4",
+          "number": 4,
+          "title": "#353: Python",
+          "pages": [
+            {
+              "url": "https://imgs.xkcd.com/comics/python.png",
+              "width": 518,
+              "height": 588
+            }
+          ]
+        },
+        {
+          "id": "xkcd-5",
+          "number": 5,
+          "title": "#927: Standards",
+          "pages": [
+            {
+              "url": "https://imgs.xkcd.com/comics/standards.png",
+              "width": 500,
+              "height": 283
+            }
+          ]
+        },
+        {
+          "id": "xkcd-6",
+          "number": 6,
+          "title": "#979: Wisdom of the Ancients",
+          "pages": [
+            {
+              "url": "https://imgs.xkcd.com/comics/wisdom_of_the_ancients.png",
+              "width": 485,
+              "height": 270
+            }
+          ]
+        },
+        {
+          "id": "xkcd-7",
+          "number": 7,
+          "title": "#1597: Git",
+          "pages": [
+            {
+              "url": "https://imgs.xkcd.com/comics/git.png",
+              "width": 330,
+              "height": 478
+            }
+          ]
+        },
+        {
+          "id": "xkcd-8",
+          "number": 8,
+          "title": "#2347: Dependency",
+          "pages": [
+            {
+              "url": "https://imgs.xkcd.com/comics/dependency.png",
+              "width": 385,
+              "height": 489
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
