@@ -1,0 +1,154 @@
+{
+  "rankings": {
+    "week": [
+      {
+        "rank": 1,
+        "seriesId": "xkcd",
+        "views": 12400,
+        "rating": 4.8
+      },
+      {
+        "rank": 2,
+        "seriesId": "pepper-carrot",
+        "views": 9800,
+        "rating": 4.9
+      },
+      {
+        "rank": 3,
+        "seriesId": "little-nemo",
+        "views": 7100,
+        "rating": 4.7
+      },
+      {
+        "rank": 4,
+        "seriesId": "krazy-kat",
+        "views": 5200,
+        "rating": 4.5
+      },
+      {
+        "rank": 5,
+        "seriesId": "buster-brown",
+        "views": 3900,
+        "rating": 4.3
+      },
+      {
+        "rank": 6,
+        "seriesId": "little-sammy-sneeze",
+        "views": 3100,
+        "rating": 4.0
+      },
+      {
+        "rank": 7,
+        "seriesId": "struwwelpeter",
+        "views": 2400,
+        "rating": 4.2
+      },
+      {
+        "rank": 8,
+        "seriesId": "becassine",
+        "views": 1800,
+        "rating": 4.1
+      }
+    ],
+    "month": [
+      {
+        "rank": 1,
+        "seriesId": "pepper-carrot",
+        "views": 48600,
+        "rating": 4.9
+      },
+      {
+        "rank": 2,
+        "seriesId": "xkcd",
+        "views": 45200,
+        "rating": 4.8
+      },
+      {
+        "rank": 3,
+        "seriesId": "little-nemo",
+        "views": 31500,
+        "rating": 4.7
+      },
+      {
+        "rank": 4,
+        "seriesId": "buster-brown",
+        "views": 22800,
+        "rating": 4.3
+      },
+      {
+        "rank": 5,
+        "seriesId": "krazy-kat",
+        "views": 21400,
+        "rating": 4.5
+      },
+      {
+        "rank": 6,
+        "seriesId": "struwwelpeter",
+        "views": 14300,
+        "rating": 4.2
+      },
+      {
+        "rank": 7,
+        "seriesId": "little-sammy-sneeze",
+        "views": 12900,
+        "rating": 4.0
+      },
+      {
+        "rank": 8,
+        "seriesId": "becassine",
+        "views": 9700,
+        "rating": 4.1
+      }
+    ],
+    "all": [
+      {
+        "rank": 1,
+        "seriesId": "pepper-carrot",
+        "views": 412000,
+        "rating": 4.9
+      },
+      {
+        "rank": 2,
+        "seriesId": "little-nemo",
+        "views": 356000,
+        "rating": 4.7
+      },
+      {
+        "rank": 3,
+        "seriesId": "xkcd",
+        "views": 331000,
+        "rating": 4.8
+      },
+      {
+        "rank": 4,
+        "seriesId": "krazy-kat",
+        "views": 214000,
+        "rating": 4.5
+      },
+      {
+        "rank": 5,
+        "seriesId": "buster-brown",
+        "views": 187000,
+        "rating": 4.3
+      },
+      {
+        "rank": 6,
+        "seriesId": "struwwelpeter",
+        "views": 163000,
+        "rating": 4.2
+      },
+      {
+        "rank": 7,
+        "seriesId": "becassine",
+        "views": 121000,
+        "rating": 4.1
+      },
+      {
+        "rank": 8,
+        "seriesId": "little-sammy-sneeze",
+        "views": 98000,
+        "rating": 4.0
+      }
+    ]
+  }
+}

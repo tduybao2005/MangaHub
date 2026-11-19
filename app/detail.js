@@ -4,6 +4,7 @@ import { useRouter, useLocalSearchParams } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 import { useManga } from '../context/MangaContext';
 import { useFavorites } from '../context/FavoritesContext';
+import { useReading } from '../context/ReadingContext';
 import { LoadingView, ErrorView } from '../components/StatusView';
 import COLORS from '../constants/colors';
 
@@ -22,6 +23,7 @@ export default function DetailScreen() {
   const { id } = useLocalSearchParams();
   const { getSeries, loading, error, reload } = useManga();
   const { isFavorite, toggleFavorite } = useFavorites();
+  const { getProgress, isRead } = useReading();
 
   const series = getSeries(id);
 
@@ -31,8 +33,13 @@ export default function DetailScreen() {
 
   const liked = isFavorite(series.id);
 
-  const openChapter = (chapter) =>
-    router.push({ pathname: '/reader', params: { seriesId: series.id, chapterId: chapter.id } });
+  // Mở 1 chương (page > 0: nhảy tới trang đang đọc dở)
+  const openChapter = (chapter, page = 0) =>
+    router.push({ pathname: '/reader', params: { seriesId: series.id, chapterId: chapter.id, page } });
+
+  // Đã đọc dở chương nào chưa? (bỏ qua nếu chương đó không còn trong dữ liệu)
+  const saved = getProgress(series.id);
+  const resumeChapter = saved ? series.chapters.find((c) => c.id === saved.chapterId) : null;
 
   return (
     <ScrollView style={styles.container}>
@@ -48,10 +55,14 @@ export default function DetailScreen() {
       <View style={styles.buttons}>
         <TouchableOpacity
           style={[styles.button, styles.readButton]}
-          onPress={() => openChapter(series.chapters[0])}
+          onPress={() =>
+            resumeChapter ? openChapter(resumeChapter, saved.page) : openChapter(series.chapters[0])
+          }
         >
           <Ionicons name="book" size={18} color="#fff" />
-          <Text style={styles.readText}>Đọc từ đầu</Text>
+          <Text style={styles.readText}>
+            {resumeChapter ? `Đọc tiếp Chương ${resumeChapter.number}` : 'Đọc từ đầu'}
+          </Text>
         </TouchableOpacity>
 
         <TouchableOpacity
@@ -65,6 +76,9 @@ export default function DetailScreen() {
 
       <View style={styles.card}>
         <Text style={styles.description}>{series.description}</Text>
+        {series.genres && series.genres.length > 0 && (
+          <InfoRow label="Thể loại" value={series.genres.join(', ')} />
+        )}
         <InfoRow label="Năm" value={series.year} />
         <InfoRow label="Ngôn ngữ" value={series.language} />
         <InfoRow label="Giấy phép" value={series.license} />
@@ -74,13 +88,24 @@ export default function DetailScreen() {
       <Text style={styles.sectionTitle}>Danh sách chương</Text>
       <View style={styles.card}>
         {/* Danh sách ngắn (dưới 10 chương) nên dùng .map() */}
-        {series.chapters.map((chapter) => (
-          <TouchableOpacity key={chapter.id} style={styles.chapterRow} onPress={() => openChapter(chapter)}>
-            <Text style={styles.chapterNumber}>Chương {chapter.number}</Text>
-            <Text style={styles.chapterTitle} numberOfLines={1}>{chapter.title}</Text>
-            <Ionicons name="chevron-forward" size={18} color={COLORS.muted} />
-          </TouchableOpacity>
-        ))}
+        {series.chapters.map((chapter) => {
+          const read = isRead(series.id, chapter.id);
+          return (
+            <TouchableOpacity
+              key={chapter.id}
+              style={[styles.chapterRow, read && styles.chapterRead]}
+              onPress={() => openChapter(chapter)}
+            >
+              <Text style={styles.chapterNumber}>Chương {chapter.number}</Text>
+              <Text style={styles.chapterTitle} numberOfLines={1}>{chapter.title}</Text>
+              {read ? (
+                <Ionicons name="checkmark-circle" size={20} color={COLORS.primary} />
+              ) : (
+                <Ionicons name="chevron-forward" size={18} color={COLORS.muted} />
+              )}
+            </TouchableOpacity>
+          );
+        })}
       </View>
     </ScrollView>
   );
@@ -193,6 +218,10 @@ const styles = StyleSheet.create({
     paddingVertical: 12,
     borderBottomWidth: 1,
     borderBottomColor: COLORS.border,
+  },
+  // Chương đã đọc: làm mờ
+  chapterRead: {
+    opacity: 0.5,
   },
   chapterNumber: {
     width: 90,

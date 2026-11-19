@@ -6,6 +6,8 @@ const COLORS = {
   text: '#222222',
   muted: '#777777',
   border: '#E5E5E5',
+  success: '#2E7D32',
+  danger: '#D32F2F',
 };
 
 export default COLORS;

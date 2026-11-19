@@ -6,6 +6,11 @@
       "author": "David Revoy",
       "year": "2014",
       "language": "Tiếng Việt",
+      "genres": [
+        "Phiêu lưu",
+        "Giả tưởng",
+        "Hài hước"
+      ],
       "license": "CC BY 4.0",
       "source": "https://www.peppercarrot.com",
       "description": "Cô phù thủy nhỏ Pepper cùng chú mèo Carrot luyện phép thuật và gặp đủ chuyện dở khóc dở cười trong thế giới Hereva.",
@@ -305,6 +310,11 @@
       "author": "Winsor McCay",
       "year": "1905",
       "language": "Tiếng Anh",
+      "genres": [
+        "Giả tưởng",
+        "Phiêu lưu",
+        "Cổ điển"
+      ],
       "license": "Public domain",
       "source": "https://commons.wikimedia.org/wiki/Category:Little_Nemo_in_Slumberland",
       "description": "Mỗi đêm cậu bé Nemo lại mơ thấy mình phiêu lưu tới xứ sở Slumberland đầy màu sắc, và luôn tỉnh dậy đúng lúc gay cấn nhất.",
@@ -414,6 +424,10 @@
       "author": "George Herriman",
       "year": "1916",
       "language": "Tiếng Anh",
+      "genres": [
+        "Hài hước",
+        "Cổ điển"
+      ],
       "license": "Public domain",
       "source": "https://commons.wikimedia.org/wiki/Category:Krazy_Kat_comics",
       "description": "Chú mèo ngây thơ Krazy, chú chuột Ignatz chuyên ném gạch và viên cảnh sát chó Offissa Pupp trong vùng sa mạc Coconino.",
@@ -499,6 +513,10 @@
       "author": "Winsor McCay",
       "year": "1904",
       "language": "Tiếng Anh",
+      "genres": [
+        "Hài hước",
+        "Cổ điển"
+      ],
       "license": "Public domain",
       "source": "https://commons.wikimedia.org/wiki/Category:Little_Sammy_Sneeze",
       "description": "Cậu bé Sammy có một tài lẻ tai hại: hắt xì mạnh tới mức thổi bay mọi thứ xung quanh, đúng vào lúc không nên nhất.",
@@ -584,6 +602,11 @@
       "author": "Richard F. Outcault",
       "year": "1902",
       "language": "Tiếng Pháp",
+      "genres": [
+        "Hài hước",
+        "Thiếu nhi",
+        "Cổ điển"
+      ],
       "license": "Public domain",
       "source": "https://commons.wikimedia.org/wiki/Category:Buster_Brown",
       "description": "Cậu bé nhà giàu Buster Brown cùng chú chó Tige bày đủ trò nghịch ngợm, cuối mỗi tập lại tự rút ra một \"bài học\".",
@@ -682,6 +705,10 @@
       "author": "Heinrich Hoffmann",
       "year": "1845",
       "language": "Tiếng Đức",
+      "genres": [
+        "Thiếu nhi",
+        "Cổ điển"
+      ],
       "license": "Public domain",
       "source": "https://commons.wikimedia.org/wiki/Category:Lustige_Geschichten_und_drollige_Bilder_für_Kinder_von_3_bis_6_Jahren",
       "description": "Tập truyện tranh thơ nổi tiếng nước Đức (bản in đầu tiên năm 1845) kể về những đứa trẻ hư và hậu quả \"nhớ đời\" của chúng.",
@@ -824,6 +851,11 @@
       "author": "Caumery & J.-P. Pinchon",
       "year": "1916",
       "language": "Tiếng Pháp",
+      "genres": [
+        "Hài hước",
+        "Thiếu nhi",
+        "Cổ điển"
+      ],
       "license": "Public domain",
       "source": "https://commons.wikimedia.org/wiki/Category:Albums_de_Bécassine",
       "description": "Cô hầu gái người Bretagne tốt bụng nhưng hậu đậu Bécassine trải qua những năm tháng Thế chiến thứ nhất theo cách rất riêng.",
@@ -985,6 +1017,10 @@
       "author": "Randall Munroe",
       "year": "2005",
       "language": "Tiếng Anh",
+      "genres": [
+        "Hài hước",
+        "Khoa học"
+      ],
       "license": "CC BY-NC 2.5",
       "source": "https://xkcd.com",
       "description": "Truyện tranh người que về lập trình, toán học, khoa học và cuộc sống, rất nổi tiếng trong giới IT.",

@@ -4,6 +4,7 @@ import { useRouter } from 'expo-router';
 import { useManga } from '../../context/MangaContext';
 import { useFavorites } from '../../context/FavoritesContext';
 import SeriesItem from '../../components/SeriesItem';
+import GenreChips from '../../components/GenreChips';
 import { LoadingView, ErrorView } from '../../components/StatusView';
 import COLORS from '../../constants/colors';
 
@@ -12,15 +13,24 @@ export default function SearchScreen() {
   const { seriesList, loading, error, reload } = useManga();
   const { isFavorite } = useFavorites();
   const [keyword, setKeyword] = useState('');
+  const [genre, setGenre] = useState(''); // '' = tất cả thể loại
 
-  // Chỉ lọc lại khi từ khoá hoặc danh sách thay đổi
+  // Danh sách thể loại lấy từ dữ liệu (không trùng, sắp theo A-Z); truyện thiếu `genres` thì coi như rỗng
+  const genres = useMemo(() => {
+    const set = new Set();
+    seriesList.forEach((s) => (s.genres || []).forEach((g) => set.add(g)));
+    return [...set].sort((a, b) => a.localeCompare(b, 'vi'));
+  }, [seriesList]);
+
+  // Chỉ lọc lại khi từ khoá, thể loại hoặc danh sách thay đổi (lọc theo cả 2 điều kiện)
   const results = useMemo(() => {
     const text = keyword.trim().toLowerCase();
-    if (!text) return seriesList;
-    return seriesList.filter(
-      (s) => s.title.toLowerCase().includes(text) || s.author.toLowerCase().includes(text)
-    );
-  }, [keyword, seriesList]);
+    return seriesList.filter((s) => {
+      const matchText = !text || s.title.toLowerCase().includes(text) || s.author.toLowerCase().includes(text);
+      const matchGenre = !genre || (s.genres || []).includes(genre);
+      return matchText && matchGenre;
+    });
+  }, [keyword, genre, seriesList]);
 
   if (loading && seriesList.length === 0) return <LoadingView />;
   if (error) return <ErrorView message={error} onRetry={reload} />;
@@ -33,6 +43,7 @@ export default function SearchScreen() {
         value={keyword}
         onChangeText={setKeyword}
       />
+      <GenreChips genres={genres} selected={genre} onSelect={setGenre} />
       <FlatList
         data={results}
         keyExtractor={(item) => item.id}

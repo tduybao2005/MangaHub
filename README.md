@@ -10,7 +10,7 @@ npm install
 npx expo start      # quét QR bằng Expo Go, hoặc bấm "a" để mở máy ảo Android
 ```
 
-> App đọc dữ liệu từ nhánh `main` trên GitHub, nên sau khi sửa `data/manga.json` cần push lên thì app mới thấy.
+> App đọc dữ liệu từ nhánh `main` trên GitHub, nên sau khi sửa `data/manga.json` hoặc `data/rankings.json` cần push lên thì app mới thấy.
 
 ## Cấu trúc thư mục
 
@@ -20,19 +20,27 @@ app/                     // Expo Router: mỗi file là 1 màn hình
   (tabs)/
     _layout.js           // Tabs: Trang chủ · Tìm kiếm · Yêu thích
     index.js             // Trang chủ: danh sách bộ truyện
-    search.js            // Tìm truyện theo tên / tác giả
+    search.js            // Tìm truyện theo tên / tác giả, lọc theo thể loại
+    top.js               // Bảng xếp hạng truyện (Tuần / Tháng / Tất cả)
     favorites.js         // Truyện đã thích
+    account.js           // Tài khoản: khách (nút đăng nhập / đăng ký) hoặc hồ sơ đã đăng nhập
   detail.js              // Chi tiết 1 bộ truyện + danh sách chương
+  login.js / register.js // Đăng nhập, đăng ký (form + kiểm tra dữ liệu + cửa sổ thông báo)
   reader.js              // Đọc 1 chương: cuộn dọc các trang, chuyển chương trước / sau
 api/client.js            // Axios instance (baseURL, timeout)
+api/auth.js              // "Server" giả lập đăng nhập / đăng ký (lưu AsyncStorage, mật khẩu băm SHA-256 + salt)
 hooks/useFetch.js        // Custom hook Loading – Data – Error
+hooks/useRankings.js     // Gọi rankings.json rồi ghép với danh sách truyện
 context/
   MangaContext.js        // Gọi API 1 lần, chia sẻ danh sách truyện cho mọi màn hình
-  FavoritesContext.js    // Danh sách truyện yêu thích
-components/              // SeriesItem, LoadingView / ErrorView
+  FavoritesContext.js    // Danh sách truyện yêu thích (lưu vào máy)
+  ReadingContext.js      // Tiến độ đọc + chương đã đọc (lưu vào máy)
+  AuthContext.js         // Người đang đăng nhập
+components/              // SeriesItem, GenreChips, ContinueReading, LoadingView / ErrorView
 constants/colors.js      // Màu dùng chung
 data/
   manga.json             // "API": danh sách truyện -> chương -> trang
+  rankings.json          // "API" thứ hai: bảng xếp hạng (số liệu GIẢ làm dữ liệu mẫu), ghép với manga.json qua seriesId
   images/                // Ảnh các truyện đã hết bản quyền (lấy từ Wikimedia Commons)
 ```
 
@@ -47,6 +55,7 @@ data/
       "author": "Winsor McCay",
       "year": "1905",
       "language": "Tiếng Anh",
+      "genres": ["Giả tưởng", "Phiêu lưu", "Cổ điển"],
       "license": "Public domain",
       "source": "https://commons.wikimedia.org/...",
       "description": "...",
