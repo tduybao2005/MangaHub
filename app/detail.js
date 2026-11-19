@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import { View, Text, Image, ScrollView, TouchableOpacity, StyleSheet } from 'react-native';
 import { useRouter, useLocalSearchParams } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
@@ -6,10 +6,12 @@ import { useManga } from '../context/MangaContext';
 import { useFavorites } from '../context/FavoritesContext';
 import { useReading } from '../context/ReadingContext';
 import { LoadingView, ErrorView } from '../components/StatusView';
-import COLORS from '../constants/colors';
+import { useTheme } from '../context/ThemeContext';
 
 // 1 dòng thông tin dạng "Nhãn: giá trị"
 function InfoRow({ label, value }) {
+  const { colors: COLORS } = useTheme();
+  const styles = useMemo(() => makeStyles(COLORS), [COLORS]);
   return (
     <View style={styles.infoRow}>
       <Text style={styles.infoLabel}>{label}</Text>
@@ -19,6 +21,8 @@ function InfoRow({ label, value }) {
 }
 
 export default function DetailScreen() {
+  const { colors: COLORS } = useTheme();
+  const styles = useMemo(() => makeStyles(COLORS), [COLORS]);
   const router = useRouter();
   const { id } = useLocalSearchParams();
   const { getSeries, loading, error, reload } = useManga();
@@ -111,7 +115,7 @@ export default function DetailScreen() {
   );
 }
 
-const styles = StyleSheet.create({
+const makeStyles = (COLORS) => StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: COLORS.background,
@@ -174,7 +178,7 @@ const styles = StyleSheet.create({
     marginLeft: 8,
   },
   likeButtonActive: {
-    backgroundColor: '#FFF0E6',
+    backgroundColor: COLORS.highlight,
   },
   likeText: {
     color: COLORS.primary,

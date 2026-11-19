@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import { View, Text, Image, FlatList, TouchableOpacity, StyleSheet } from 'react-native';
 import { useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 import { useRankings } from '../../hooks/useRankings';
 import { LoadingView, ErrorView } from '../../components/StatusView';
-import COLORS from '../../constants/colors';
+import { useTheme } from '../../context/ThemeContext';
 
 const PERIODS = [
   { key: 'week', label: 'Tuần' },
@@ -22,6 +22,8 @@ function formatViews(n) {
 }
 
 export default function TopScreen() {
+  const { colors: COLORS } = useTheme();
+  const styles = useMemo(() => makeStyles(COLORS), [COLORS]);
   const router = useRouter();
   const [period, setPeriod] = useState('week');
   const { items, loading, error, reload } = useRankings(period);
@@ -77,7 +79,7 @@ export default function TopScreen() {
   );
 }
 
-const styles = StyleSheet.create({
+const makeStyles = (COLORS) => StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: COLORS.background,

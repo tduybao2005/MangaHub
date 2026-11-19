@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import { View, Text, Image, TouchableOpacity, StyleSheet } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import COLORS from '../constants/colors';
+import { useTheme } from '../context/ThemeContext';
 
 // 1 dòng trong danh sách truyện: ảnh bìa bên trái, thông tin bên phải
 export default function SeriesItem({ series, isFavorite, onPress }) {
+  const { colors: COLORS } = useTheme();
+  const styles = useMemo(() => makeStyles(COLORS), [COLORS]);
   return (
     <TouchableOpacity style={styles.row} onPress={onPress}>
       <Image source={{ uri: series.cover }} style={styles.cover} />
@@ -20,7 +22,7 @@ export default function SeriesItem({ series, isFavorite, onPress }) {
   );
 }
 
-const styles = StyleSheet.create({
+const makeStyles = (COLORS) => StyleSheet.create({
   row: {
     flexDirection: 'row',
     alignItems: 'center',

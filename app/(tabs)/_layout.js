@@ -1,16 +1,21 @@
 import React from 'react';
 import { Tabs } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
+import { useTheme } from '../../context/ThemeContext';
 import COLORS from '../../constants/colors';
 
 // Thanh tab dưới: Trang chủ · Tìm kiếm · Top · Yêu thích · Tài khoản
 export default function TabLayout() {
+  const { colors } = useTheme();
   return (
     <Tabs
       screenOptions={{
         headerStyle: { backgroundColor: COLORS.primary },
         headerTintColor: '#fff',
         tabBarActiveTintColor: COLORS.primary,
+        tabBarInactiveTintColor: colors.muted,
+        tabBarStyle: { backgroundColor: colors.card, borderTopColor: colors.border },
+        sceneStyle: { backgroundColor: colors.background },
       }}
     >
       <Tabs.Screen

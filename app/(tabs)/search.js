@@ -6,9 +6,11 @@ import { useFavorites } from '../../context/FavoritesContext';
 import SeriesItem from '../../components/SeriesItem';
 import GenreChips from '../../components/GenreChips';
 import { LoadingView, ErrorView } from '../../components/StatusView';
-import COLORS from '../../constants/colors';
+import { useTheme } from '../../context/ThemeContext';
 
 export default function SearchScreen() {
+  const { colors: COLORS } = useTheme();
+  const styles = useMemo(() => makeStyles(COLORS), [COLORS]);
   const router = useRouter();
   const { seriesList, loading, error, reload } = useManga();
   const { isFavorite } = useFavorites();
@@ -40,6 +42,7 @@ export default function SearchScreen() {
       <TextInput
         style={styles.input}
         placeholder="Nhập tên truyện hoặc tác giả..."
+        placeholderTextColor={COLORS.muted}
         value={keyword}
         onChangeText={setKeyword}
       />
@@ -60,7 +63,7 @@ export default function SearchScreen() {
   );
 }
 
-const styles = StyleSheet.create({
+const makeStyles = (COLORS) => StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: COLORS.background,
@@ -74,6 +77,7 @@ const styles = StyleSheet.create({
     paddingVertical: 10,
     margin: 12,
     fontSize: 16,
+    color: COLORS.text,
   },
   empty: {
     textAlign: 'center',

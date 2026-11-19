@@ -1,10 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import { View, Text, TextInput, TouchableOpacity, StyleSheet } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import COLORS from '../constants/colors';
+import { useTheme } from '../context/ThemeContext';
 
 // 1 ô nhập có nhãn + dòng báo lỗi bên dưới. secureTextEntry: ô mật khẩu có nút hiện/ẩn
 export default function FormField({ label, error, secureTextEntry, ...inputProps }) {
+  const { colors: COLORS } = useTheme();
+  const styles = useMemo(() => makeStyles(COLORS), [COLORS]);
   const [hidden, setHidden] = useState(true);
 
   return (
@@ -29,7 +31,7 @@ export default function FormField({ label, error, secureTextEntry, ...inputProps
   );
 }
 
-const styles = StyleSheet.create({
+const makeStyles = (COLORS) => StyleSheet.create({
   wrapper: {
     marginBottom: 14,
   },

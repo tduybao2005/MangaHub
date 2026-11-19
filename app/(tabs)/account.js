@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 import { useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
@@ -7,7 +7,8 @@ import { useFavorites } from '../../context/FavoritesContext';
 import { useReading } from '../../context/ReadingContext';
 import { LoadingView } from '../../components/StatusView';
 import FeedbackModal from '../../components/FeedbackModal';
-import COLORS from '../../constants/colors';
+import ThemeSwitcher from '../../components/ThemeSwitcher';
+import { useTheme } from '../../context/ThemeContext';
 
 // Chữ cái đầu của tên làm avatar: "Bảo Trần" -> "BT"
 function getInitials(name) {
@@ -20,6 +21,8 @@ function getInitials(name) {
 
 // 1 ô thống kê (số + nhãn)
 function Stat({ icon, value, label }) {
+  const { colors: COLORS } = useTheme();
+  const styles = useMemo(() => makeStyles(COLORS), [COLORS]);
   return (
     <View style={styles.stat}>
       <Ionicons name={icon} size={22} color={COLORS.primary} />
@@ -30,6 +33,8 @@ function Stat({ icon, value, label }) {
 }
 
 export default function AccountScreen() {
+  const { colors: COLORS } = useTheme();
+  const styles = useMemo(() => makeStyles(COLORS), [COLORS]);
   const router = useRouter();
   const { user, loading, logout } = useAuth();
   const { favoriteIds } = useFavorites();
@@ -51,6 +56,7 @@ export default function AccountScreen() {
         <TouchableOpacity style={styles.outlineButton} onPress={() => router.push('/register')}>
           <Text style={styles.outlineText}>Đăng ký</Text>
         </TouchableOpacity>
+        <ThemeSwitcher />
       </View>
     );
   }
@@ -74,6 +80,8 @@ export default function AccountScreen() {
         <Stat icon="checkmark-circle" value={readCount} label="Chương đã đọc" />
       </View>
 
+      <ThemeSwitcher />
+
       <TouchableOpacity style={styles.logoutButton} onPress={() => setConfirmLogout(true)}>
         <Ionicons name="log-out-outline" size={20} color={COLORS.danger} />
         <Text style={styles.logoutText}>Đăng xuất</Text>
@@ -96,7 +104,7 @@ export default function AccountScreen() {
   );
 }
 
-const styles = StyleSheet.create({
+const makeStyles = (COLORS) => StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: COLORS.background,
@@ -196,7 +204,7 @@ const styles = StyleSheet.create({
   logoutButton: {
     flexDirection: 'row',
     alignItems: 'center',
-    marginTop: 32,
+    marginTop: 20,
     padding: 12,
   },
   logoutText: {

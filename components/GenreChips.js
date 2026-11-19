@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import { ScrollView, Text, TouchableOpacity, StyleSheet } from 'react-native';
-import COLORS from '../constants/colors';
+import { useTheme } from '../context/ThemeContext';
 
 // Hàng nút chọn thể loại. Bấm 1 thể loại để lọc, bấm lại để bỏ chọn.
 // genres: ['Hài hước', ...] — rỗng thì không hiện gì; selected: thể loại đang chọn ('' = không chọn)
 export default function GenreChips({ genres, selected, onSelect }) {
+  const { colors: COLORS } = useTheme();
+  const styles = useMemo(() => makeStyles(COLORS), [COLORS]);
   if (genres.length === 0) return null;
 
   return (
@@ -30,7 +32,7 @@ export default function GenreChips({ genres, selected, onSelect }) {
   );
 }
 
-const styles = StyleSheet.create({
+const makeStyles = (COLORS) => StyleSheet.create({
   scroll: {
     // Chiều cao cố định, không co lại (nếu không danh sách bên dưới sẽ ép hàng nút bị cắt)
     flexGrow: 0,

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import { Text, FlatList, StyleSheet } from 'react-native';
 import { useRouter } from 'expo-router';
 import { useManga } from '../../context/MangaContext';
@@ -7,9 +7,11 @@ import { useReading } from '../../context/ReadingContext';
 import SeriesItem from '../../components/SeriesItem';
 import ContinueReading from '../../components/ContinueReading';
 import { LoadingView, ErrorView } from '../../components/StatusView';
-import COLORS from '../../constants/colors';
+import { useTheme } from '../../context/ThemeContext';
 
 export default function HomeScreen() {
+  const { colors: COLORS } = useTheme();
+  const styles = useMemo(() => makeStyles(COLORS), [COLORS]);
   const router = useRouter();
   const { seriesList, loading, error, reload } = useManga();
   const { isFavorite } = useFavorites();
@@ -56,7 +58,7 @@ export default function HomeScreen() {
   );
 }
 
-const styles = StyleSheet.create({
+const makeStyles = (COLORS) => StyleSheet.create({
   list: {
     flex: 1,
     backgroundColor: COLORS.background,

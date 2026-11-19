@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useMemo } from 'react';
 import { View, Text, ScrollView, TouchableOpacity, ActivityIndicator, Animated, StyleSheet } from 'react-native';
 import { useRouter, useLocalSearchParams } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
@@ -6,9 +6,11 @@ import { useAuth } from '../context/AuthContext';
 import FormField from '../components/FormField';
 import FeedbackModal from '../components/FeedbackModal';
 import { validateLogin } from '../utils/validators';
-import COLORS from '../constants/colors';
+import { useTheme } from '../context/ThemeContext';
 
 export default function LoginScreen() {
+  const { colors: COLORS } = useTheme();
+  const styles = useMemo(() => makeStyles(COLORS), [COLORS]);
   const router = useRouter();
   const { email: presetEmail } = useLocalSearchParams(); // email điền sẵn sau khi đăng ký xong
   const { login } = useAuth();
@@ -104,7 +106,7 @@ export default function LoginScreen() {
   );
 }
 
-const styles = StyleSheet.create({
+const makeStyles = (COLORS) => StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: COLORS.background,

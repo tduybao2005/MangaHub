@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import { View, Text, Image, FlatList, TouchableOpacity, StyleSheet } from 'react-native';
-import COLORS from '../constants/colors';
+import { useTheme } from '../context/ThemeContext';
 
 // Mục "Đang đọc dở" ở trang chủ: danh sách ngang các truyện đã đọc dở
 // items: [{ series, chapter, page }] — rỗng thì không hiện gì
 export default function ContinueReading({ items, onPress }) {
+  const { colors: COLORS } = useTheme();
+  const styles = useMemo(() => makeStyles(COLORS), [COLORS]);
   if (items.length === 0) return null;
 
   return (
@@ -28,7 +30,7 @@ export default function ContinueReading({ items, onPress }) {
   );
 }
 
-const styles = StyleSheet.create({
+const makeStyles = (COLORS) => StyleSheet.create({
   title: {
     fontSize: 18,
     fontWeight: 'bold',

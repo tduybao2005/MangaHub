@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import { View, Text, Button, ActivityIndicator, StyleSheet } from 'react-native';
-import COLORS from '../constants/colors';
+import { useTheme } from '../context/ThemeContext';
 
 // Hiển thị khi đang tải
 export function LoadingView() {
+  const { colors: COLORS } = useTheme();
+  const styles = useMemo(() => makeStyles(COLORS), [COLORS]);
   return (
     <View style={styles.center}>
       <ActivityIndicator size="large" color={COLORS.primary} />
@@ -14,6 +16,8 @@ export function LoadingView() {
 
 // Hiển thị khi lỗi, có nút thử lại
 export function ErrorView({ message, onRetry, buttonTitle = 'Thử lại' }) {
+  const { colors: COLORS } = useTheme();
+  const styles = useMemo(() => makeStyles(COLORS), [COLORS]);
   return (
     <View style={styles.center}>
       <Text style={styles.error}>Lỗi: {message}</Text>
@@ -22,7 +26,7 @@ export function ErrorView({ message, onRetry, buttonTitle = 'Thử lại' }) {
   );
 }
 
-const styles = StyleSheet.create({
+const makeStyles = (COLORS) => StyleSheet.create({
   center: {
     flex: 1,
     justifyContent: 'center',

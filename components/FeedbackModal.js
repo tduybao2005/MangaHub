@@ -1,20 +1,22 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useMemo } from 'react';
 import { Modal, View, Text, TouchableOpacity, Animated, StyleSheet } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import COLORS from '../constants/colors';
+import { useTheme } from '../context/ThemeContext';
 
 // Cửa sổ thông báo có hiệu ứng nảy lên.
 // type: 'success' (xanh) | 'error' (đỏ) | 'confirm' (hỏi xác nhận)
 // Có cancelText thì hiện thêm nút thứ hai (gọi onCancel)
-const ICONS = {
+const getIcons = (COLORS) => ({
   success: { name: 'checkmark-circle', color: COLORS.success },
   error: { name: 'close-circle', color: COLORS.danger },
   confirm: { name: 'help-circle', color: COLORS.primary },
-};
+});
 
 export default function FeedbackModal({
   visible, type = 'success', title, message, confirmText = 'OK', cancelText, onConfirm, onCancel,
 }) {
+  const { colors: COLORS } = useTheme();
+  const styles = useMemo(() => makeStyles(COLORS), [COLORS]);
   const scale = useRef(new Animated.Value(0.7)).current;
   const opacity = useRef(new Animated.Value(0)).current;
 
@@ -29,7 +31,7 @@ export default function FeedbackModal({
     ]).start();
   }, [visible, scale, opacity]);
 
-  const icon = ICONS[type];
+  const icon = getIcons(COLORS)[type];
 
   return (
     <Modal transparent visible={visible} animationType="none" onRequestClose={onCancel || onConfirm}>
@@ -54,7 +56,7 @@ export default function FeedbackModal({
   );
 }
 
-const styles = StyleSheet.create({
+const makeStyles = (COLORS) => StyleSheet.create({
   backdrop: {
     flex: 1,
     backgroundColor: 'rgba(0,0,0,0.5)',

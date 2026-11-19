@@ -36,7 +36,8 @@ context/
   FavoritesContext.js    // Danh sách truyện yêu thích (lưu vào máy)
   ReadingContext.js      // Tiến độ đọc + chương đã đọc (lưu vào máy)
   AuthContext.js         // Người đang đăng nhập
-components/              // SeriesItem, GenreChips, ContinueReading, LoadingView / ErrorView
+  ThemeContext.js        // Giao diện sáng / tối / theo hệ thống (lưu vào máy), cấp bảng màu cho mọi màn hình
+components/              // SeriesItem, GenreChips, ThemeSwitcher, ContinueReading, LoadingView / ErrorView
 constants/colors.js      // Màu dùng chung
 data/
   manga.json             // "API": danh sách truyện -> chương -> trang

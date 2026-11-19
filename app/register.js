@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useMemo } from 'react';
 import { Text, ScrollView, TouchableOpacity, ActivityIndicator, Animated, StyleSheet } from 'react-native';
 import { useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
@@ -6,9 +6,11 @@ import { useAuth } from '../context/AuthContext';
 import FormField from '../components/FormField';
 import FeedbackModal from '../components/FeedbackModal';
 import { validateRegister } from '../utils/validators';
-import COLORS from '../constants/colors';
+import { useTheme } from '../context/ThemeContext';
 
 export default function RegisterScreen() {
+  const { colors: COLORS } = useTheme();
+  const styles = useMemo(() => makeStyles(COLORS), [COLORS]);
   const router = useRouter();
   const { register } = useAuth();
 
@@ -88,7 +90,7 @@ export default function RegisterScreen() {
   );
 }
 
-const styles = StyleSheet.create({
+const makeStyles = (COLORS) => StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: COLORS.background,

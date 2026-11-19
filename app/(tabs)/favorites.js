@@ -1,12 +1,14 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import { View, Text, FlatList, StyleSheet } from 'react-native';
 import { useRouter } from 'expo-router';
 import { useManga } from '../../context/MangaContext';
 import { useFavorites } from '../../context/FavoritesContext';
 import SeriesItem from '../../components/SeriesItem';
-import COLORS from '../../constants/colors';
+import { useTheme } from '../../context/ThemeContext';
 
 export default function FavoritesScreen() {
+  const { colors: COLORS } = useTheme();
+  const styles = useMemo(() => makeStyles(COLORS), [COLORS]);
   const router = useRouter();
   const { getSeries } = useManga();
   const { favoriteIds } = useFavorites();
@@ -36,7 +38,7 @@ export default function FavoritesScreen() {
   );
 }
 
-const styles = StyleSheet.create({
+const makeStyles = (COLORS) => StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: COLORS.background,
